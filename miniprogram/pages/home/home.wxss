@@ -22,7 +22,7 @@ page{
   height: 500rpx;
   border-radius: 30rpx;
   overflow: hidden;
-  margin-top: 20rpx;
+  margin-top: 40rpx;
 }
 .tree{
   position: fixed;
