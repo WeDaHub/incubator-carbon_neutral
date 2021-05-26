@@ -11,7 +11,7 @@ csig男团
 
 ###作品介绍
 碳中和-保护地球
-![avatar](https://github.com/chenjianfang/carbon_neutral/blob/master/libs/intro.mp4)
+![avatar](https://github.com/chenjianfang/carbon_neutral/blob/master/libs/intro.gif)
 
 ###模块介绍
 1、消灭二氧化碳
