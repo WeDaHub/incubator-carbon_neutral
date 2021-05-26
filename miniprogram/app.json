@@ -7,14 +7,14 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "碳中和-保护地球",
+    "navigationBarTitleText": "碳中和",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "碳中和",
+        "text": "消灭二氧化碳",
         "iconPath": "images/home_2.png",
         "selectedIconPath": "images/home.png"
       },
