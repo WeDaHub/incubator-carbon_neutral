@@ -83,7 +83,7 @@ Page({
         this.setData({
           receiveGif: false
         });
-      }, 1500);
+      }, 15000000);
     }
   }
 })

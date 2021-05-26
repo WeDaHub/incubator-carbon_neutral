@@ -1,5 +1,5 @@
 <view class="container">
-    <view class="title">碳中和</view>
+    <image class="imgItem" src="./img/coimg.png" mode="aspectFit"></image>
     <view class="item">
         碳中和（英语：carbon neutrality），是指国家、企业、产品、活动或个人在一定时间内直接或间接产生的二氧化碳或温室气体排放总量，通过使用低碳能源取代化石燃料、植树造林、节能减排等形式，以抵消自身产生的二氧化碳或温室气体排放量，实现正负抵消，达到相对“零排放”。
     </view>
@@ -12,7 +12,6 @@
     <view class="item">
         2、使用低碳或零碳排的技术（参见低碳经济）。例如使用再生能源（如风能和太阳能），以避免因燃烧化石燃料而排放二氧化碳到大气中；最终目标是仅使用低碳能源，而非化石燃料，使碳的释放与吸收回地球的量达平衡不增加。
     </view>
-    <image class="imgItem" src="./img/coimg.png" mode="aspectFit"></image>
 
     <view class="title">怎么做</view>
     <view class="item">

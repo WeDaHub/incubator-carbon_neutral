@@ -11,7 +11,10 @@ page{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   z-index: 2;
+  color: #fff;
+  font-weight: bold;
 }
 .receive{
   display: block;
@@ -19,6 +22,7 @@ page{
   height: 500rpx;
   border-radius: 30rpx;
   overflow: hidden;
+  margin-top: 20rpx;
 }
 .tree{
   position: fixed;

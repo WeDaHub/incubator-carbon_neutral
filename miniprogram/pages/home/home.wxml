@@ -22,6 +22,7 @@
     <image class="tree" src="./img/tree.png" mode="aspectFit"></image>
 
     <view wx:if="{{receiveGif}}" class="receiveBox">
+        <view>二氧化碳消灭中...</view>
         <image class="receive" src="./img/good.gif" mode="aspectFill"></image>
     </view>
 </view>
