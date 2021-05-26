@@ -1,0 +1,27 @@
+<wxs module="m1">
+	var hasClick = function(removeList, id) {
+      return removeList.indexOf(id) === -1;
+	}
+	module.exports.hasClick = hasClick;
+</wxs>
+
+<!--index.wxml-->
+<view class="container">
+    <view class="userInfo">
+        <view class="userinfo-block-avatar">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+        搜集二氧化碳：<text class="gasNum">{{gasNums}}</text>
+    </view>
+    <view class="gasBox" bindtap="onClickGas">
+        <view wx:if="{{ removeList.length === 0 }}" class="gasBox_tips">点击二氧化碳，消除污染</view>
+        <image wx:if="{{ m1.hasClick(removeList, 0) }}" data-id="0" class="co2 co2_1" src="./img/co2.png" mode="aspectFit"></image>
+        <image wx:if="{{ m1.hasClick(removeList, 1) }}" data-id="1" class="co2 co2_2" src="./img/co2.png" mode="aspectFit"></image>
+        <image wx:if="{{ m1.hasClick(removeList, 2) }}" data-id="2" class="co2 co2_3" src="./img/co2.png" mode="aspectFit"></image>
+    </view>
+    <image class="tree" src="./img/tree.png" mode="aspectFit"></image>
+
+    <view wx:if="{{receiveGif}}" class="receiveBox">
+        <image class="receive" src="./img/good.gif" mode="aspectFill"></image>
+    </view>
+</view>

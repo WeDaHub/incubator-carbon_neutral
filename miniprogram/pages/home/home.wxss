@@ -1,0 +1,87 @@
+page{
+  background: #009d37;
+}
+.receiveBox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.receive{
+  display: block;
+  width: 500rpx;
+  height: 500rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+.tree{
+  position: fixed;
+  bottom: 100rpx;
+  width: 500rpx;
+  height: 500rpx;
+}
+.gasBox{
+  position: absolute;
+  width: 100%;
+  top: 200rpx;
+  left: 0;
+}
+.co2{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  animation: coAni 1s infinite alternate linear;
+}
+@keyframes coAni {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.5);
+  }
+}
+.co2_1{
+  top: 30rpx;
+  left: 100rpx;
+}
+.co2_2{
+  top: 100rpx;
+  left: 400rpx;
+}
+.co2_3{
+  top: 20rpx;
+  left: 600rpx;
+}
+.gasBox_tips{
+  margin-bottom: 20rpx;
+  font-size: 24rpx;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.userInfo{
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #fff;
+}
+.userinfo-block-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.gasNum{
+  font-weight: bold;
+  mso-font-width: 28rpx;
+}

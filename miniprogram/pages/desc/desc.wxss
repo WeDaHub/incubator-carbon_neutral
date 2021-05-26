@@ -1,0 +1,21 @@
+page{
+  background: #fff;
+}
+.container{
+  padding: 10rpx 30rpx;
+}
+.title{
+  text-align: center;
+  width: 100%;
+  margin-top: 25rpx;
+  font-weight: bold;
+}
+.item{
+  display: block;
+  width: 100%;
+  text-indent: 50rpx;
+}
+.imgItem{
+  display: block;
+  width: 100%;
+}

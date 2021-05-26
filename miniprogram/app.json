@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/desc/desc"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "碳中和-保护地球",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "碳中和",
+        "iconPath": "images/home_2.png",
+        "selectedIconPath": "images/home.png"
+      },
+      {
+        "pagePath": "pages/desc/desc",
+        "text": "简介",
+        "iconPath": "images/desc_2.png",
+        "selectedIconPath": "images/desc.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
